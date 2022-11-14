@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/agrandar"
+        android:icon="@android:drawable/btn_plus"
+        android:title="Agrandar texto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/disminuir"
+        android:icon="@android:drawable/btn_minus"
+        android:title="Disminuir texto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/color"
+        android:title="Colores">
+        <menu>
+            <item
+                android:id="@+id/verde"
+                android:title="Verde" />
+            <item
+                android:id="@+id/azul"
+                android:title="Azul" />
+            <item
+                android:id="@+id/rojo"
+                android:title="Rojo" />
+        </menu>
+    </item>
+</menu>
